@@ -1,0 +1,33 @@
+.btn{
+    padding: 7px 25px;
+    border-radius: 5px;
+    background-color: #F76E11;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+.btn:hover{
+    color: #F76E11;
+}
+
+@media only screen and (max-width: 992px){
+    .slider__content h2{
+        font-size: 1.5rem;
+    }
+    .slider__content p{
+        font-size: .8rem;
+    }
+    .slider__content .btn{
+        padding: 5px 20px;
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .slider__content{
+        padding-left: 0;
+    }
+    .slick-prev, .slick-next{
+        display: none !important;
+    }
+}

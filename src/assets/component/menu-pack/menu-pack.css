@@ -1,0 +1,31 @@
+.filter-btn{
+    border: 1px solid #F76E11;
+    padding: 7px 25px;
+    background: transparent;
+    margin-left: 15px;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu__title{
+    color: #F5B70A;
+}
+.active__btn{
+    background: #F76E11;
+}
+
+@media only screen and (max-width: 992px){
+    .menu__title{
+        font-size: 1.4rem;
+    }
+    .filter-btn{
+        padding: 5px 20px;
+        font-style: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .filter-btn{
+        margin-bottom: 15px;
+    }
+}
